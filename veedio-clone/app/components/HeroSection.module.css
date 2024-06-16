@@ -1,0 +1,36 @@
+.heroSection {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .heroTitle {
+    font-size: 90px;
+    max-width: 1000px;
+    margin: auto;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .heroSubtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .heroButton {
+    background-color: #6366f1;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .heroButton:hover {
+    background-color: #4f46e5;
+  }
+  

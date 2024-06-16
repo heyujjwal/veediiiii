@@ -1,0 +1,61 @@
+.trustSection {
+    background-color: #f8f9fa;
+    padding: 20px 20px;
+  }
+  
+  .inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .trustText {
+    font-size: 16px;
+    color: #000;
+  }
+  
+  .marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .logos {
+    display: flex;
+    animation: scroll 15s linear infinite;
+  }
+  
+  .logoImage {
+    display: inline-block;
+    margin: 0 20px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+  
+  .logoImage:hover {
+    filter: grayscale(0%);
+  }
+  
+  .logoImage svg {
+    width: 100%;
+    height: auto;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

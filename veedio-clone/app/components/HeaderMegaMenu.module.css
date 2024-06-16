@@ -1,0 +1,104 @@
+.header {
+  width: 100%;
+  margin: 12px 8px;
+  background: #f8f9fa;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+
+  border-radius: 16px;
+  background: rgba(170, 169, 169, 0.22);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(5px);
+  position: relative; /* Ensure the header has a relative position */
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: background 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.link:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.loginButton {
+  font-size: 16px;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  background: #000;
+  padding: 2px;
+  margin: auto;
+}
+
+.signUpButton {
+  font-size: 16px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  padding: 2px;
+  margin: auto;
+}
+
+.drawerLoginButton {
+  font-size: 16px;
+  border: 1px solid #000;
+  color: #000;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.drawerSignUpButton {
+  font-size: 16px;
+  background: #000;
+  color: #fff;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.dropdown {
+  position: absolute;
+  top: 60px; /* Adjust as needed to position correctly */
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #000;
+}
